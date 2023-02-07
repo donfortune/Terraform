@@ -1,0 +1,8 @@
+vpc_cidr_block = "10.0.0.0/16"
+subnet_cidr_block = "10.0.10.0/24"
+avail_zone = "us-east-2a"
+env_prefix = "dev"
+my_ip = "0.0.0.0/0"
+instance_type = "t2.micro"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGswsAcpq2b7+6A7A44lufDUXG2enVrSKA1qjIvowPoY35cYlykr+Nmho0td3v5Qf7K21/whZZ79Q8P+/tY0rbsAK1ekyUNFY5oxONSbA2mSSnY3fkjCWXCI2l5qPvqArv/RyBrFnI+22PRJH9mE6GB1ouK6EKwA5FVDDivtb/AbM1OHAuiQ0gzTm10eaP6vaHfhkmR7g6X+SXHX/rIbSs+tljZ6nOPEtyT/rnpo5Hr5Ifaij3iAqPGVf3Ozq8zNV7wByKmoTiahYlHIZcMjLi2OgFu17RwVU+PIm19XPEFzuyp4VzSTZGaW0HEZbvyhdWPmPu7pJVNubfmyn6IfHysXidttT1218KnZzaKk9dHLoSGeOQVmDwnSCbuFZ5hvEAWYMDGC8MEoijvYwHxnib5xw4+WF2iKBFlBnt3SXNo81zEWJTThLFnA4g7CcytjlVW4HX/SouqAGpdKJWaTpkUva/d/uMbjY3jn++vtFnZT8TXljrt+Ii5qBjSfWpvTM= donfortunet.df@gmail.com"
+private_key = "/Users/mac/.ssh/id_rsa"
