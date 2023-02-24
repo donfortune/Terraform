@@ -132,6 +132,12 @@ resource "aws_instance" "myapp-server" {
           "mkdir newdir"
         ]
   }
+  
+  provisioner "local_exec"{
+     working_dir = "/Users/mac/docker-ansible"
+     command = "ansible-playbook --inventory ${self.public_ip}, --private-key ${var.private_key} --user ec2-user  playbook.yaml" #note, your host in your plabook should change to All to refelct the terraform instance ip
+  
+  }
 
 }
 
