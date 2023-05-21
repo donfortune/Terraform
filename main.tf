@@ -11,7 +11,7 @@ resource "aws_subnet" "main" {
   cidr_block = "10.0.10.0/24"
 
   tags = {
-    Name = "Main"
+    Name = "Main-Subnet"
   }
 }
 
