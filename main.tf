@@ -21,7 +21,7 @@ data "aws_vpc" "existing_vpc" {
 
 resource "aws_subnet" "main-subnet-1" {
   vpc_id     = data.aws_vpc.existing_vpc.id
-  cidr_block = "172.31.48.0/20"
+  cidr_block = "172.31.48.0/22"
 
   tags = {
     Name = "Mains"
