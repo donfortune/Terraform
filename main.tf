@@ -1,6 +1,6 @@
 
 resource "aws_vpc" "development-vpc" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = "10.0.0.0/12"
   tags = {
     Name = "development"
    }
